@@ -1,27 +1,8 @@
-# Medical Visual Question Answering (VQA) with BiomedCLIP
+# Authors: Haziq Faiz, Koh Chung How
+
+# Medical Visual Question Answering (VQA) Benchmark of BiomedCLIP vs SAN
 
 A deep learning system for answering medical questions about radiological images using BiomedCLIP as a feature extractor and a trainable MLP classifier.
-
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Performance](#model-performance)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
-- [Results](#results)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
-- [Citation](#citation)
 
 ## 🔍 Overview
 
@@ -31,7 +12,7 @@ This project implements a Medical Visual Question Answering system that can answ
 - **Trainable MLP Classifier**: A lightweight classification head for answer prediction
 - **SLAKE Dataset**: A comprehensive medical VQA dataset with English questions
 
-## 🏗️ Architecture
+## 🏗️ BioMedClip-MLP Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
